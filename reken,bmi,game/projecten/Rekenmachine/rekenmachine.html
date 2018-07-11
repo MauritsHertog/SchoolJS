@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="rekenmachine.js">
+
+</script>
+<link rel="stylesheet" type="text/css" href="rekenmachinestyle.css">
+</head>
+<body>
+<div class="bg"></div>
+<div id='tafelborder' class="tafelborder">
+<p id='tafelX' class="tafelX"></p>
+<p id='1' class="tafelX"></p>
+<p id='2' class="tafelX"></p>
+<p id='3' class="tafelX"></p>
+<p id='4' class="tafelX"></p>
+<p id='5' class="tafelX"></p>
+<p id='6' class="tafelX"></p>
+<p id='7' class="tafelX"></p>
+<p id='8' class="tafelX"></p>
+<p id='9' class="tafelX"></p>
+<p id='10' class="tafelX"></p>
+</div>
+<div class="main">
+<form name="form">
+<input class="textviewX" name="textviewX" onfocus="this.value=''" placeholder="X">
+</form>
+<form name="form1">
+<input class="textviewY" name="textviewY" onfocus="this.value=''" placeholder="Y">
+</form>
+<table>
+<tr>
+<td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+ <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+   <td><input class="button" type="button" value="x" onclick="insert('x')"></td>
+</tr>
+<tr>
+<td><input class="button" type="button" value="/" onclick="insert('/')"></td>
+ <td><input class="button" type="button" value="X²" onclick="insert('kwadraat')"></td>
+   <td><input class="button" type="button" value="√x" onclick="insert('wortel')"></td>
+</tr>
+<tr>
+<td><input class="button" type="button" value="xʸ" onclick="insert('xy')"></td>
+ <td><input class="button" type="button" value="T x" onclick="insert('tafelvan')"></td>
+   <td><input class="button1" type="button1" value="clear" onclick="clean()"></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

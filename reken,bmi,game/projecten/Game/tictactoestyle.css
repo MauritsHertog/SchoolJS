@@ -1,0 +1,52 @@
+
+h1{
+text-align:center;
+font-size:50px;
+margin-bottom:7px;
+}
+.Square 
+{
+	width:60px;
+	height:60px;
+	text-align:center;
+	font-size:23pt;
+	font-weight:bold;
+	font-family:verdana;
+}
+
+table {
+margin:auto;
+}
+
+div {
+text-align:center;
+}
+
+a {
+text-decoration:none;
+}
+
+body {
+text-align:center;
+background-color:#dbdbdb;
+}
+
+.div1 {
+background-color:white;
+width:200px;
+height:190px;
+margin:auto;
+}
+
+.div2 {
+width:200px;
+margin:auto;
+margin-bottom:20px;
+font-size: 25px;
+ border-style:outset;
+}
+
+.message {
+border-left: 6px solid red;
+    background-color: lightgrey;
+}
